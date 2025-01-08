@@ -1,0 +1,22 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeTest;
+
+public class MyTestCases {
+
+	WebDriver driver =new ChromeDriver();
+	
+	
+	@BeforeTest
+	
+	public void mysetup() {
+		
+		driver.get("https://www.google.com");
+	}
+	
+	@Test
+	
+	public void mytest() {
+		
+	}
+}

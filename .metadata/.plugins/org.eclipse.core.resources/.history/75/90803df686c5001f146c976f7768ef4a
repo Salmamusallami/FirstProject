@@ -1,0 +1,16 @@
+package MyTestCasessauceLab;
+
+public class MaintestCases {
+	
+	@BeforeTest
+	
+	public void myFirstTest() {
+		
+		
+		
+		
+		
+	}
+	
+
+}

@@ -1,0 +1,15 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class MyTestCases {
+
+	WebDriver driver =new ChromeDriver();
+	
+	
+	@BeforeTest
+	
+	public void mysetup() {
+		
+		driver.get("https://www.google.com");
+	}
+}

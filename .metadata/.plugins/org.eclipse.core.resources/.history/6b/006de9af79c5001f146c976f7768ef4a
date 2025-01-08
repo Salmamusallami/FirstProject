@@ -1,0 +1,7 @@
+package MyTestCasessauceLab;
+
+public class MaintestCases {
+	
+	@BeforeTest
+
+}
